@@ -13,6 +13,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		gameObject.transform.position = new Vector3(gameObject.transform.position.x + 0.1f, gameObject.transform.position.y, gameObject.transform.position.z);
+		gameObject.transform.position = new Vector3(gameObject.transform.position.x + 50f * Time.deltaTime, gameObject.transform.position.y, gameObject.transform.position.z);
 	}
 }
